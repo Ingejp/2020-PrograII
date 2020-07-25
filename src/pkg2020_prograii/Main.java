@@ -14,7 +14,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();  // crea objeto sin inicializar nada
-        calculadora.establecerTipo("Calculadora Básica");
+        calculadora.establecerTipo("Calculadora Básica");// se inicializan los atributos atraves de metodos set
         
         Calculadora calculadora2= new Calculadora("Calculadora Básica"); // crea objeto inicializando recursos
         

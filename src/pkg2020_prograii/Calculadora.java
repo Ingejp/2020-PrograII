@@ -5,16 +5,13 @@ public class Calculadora {  //NOMBRE DE LA CLASE
     private int resultadoEntero; //ATRIBUTO DE CLASE
     private double resultadoDecimal; //ATRIBUTO DE CLASE
     private String tipoCalculadora;//Atributo de clase
-    //private int cantidadMaximaParametros; 
    
     //Contructor: implicito y explicito
     //Sobrecarga de constructores
     public Calculadora(){
-        //this.cantidadMaximaParametros=5;
     }
     public Calculadora(String tipo){
         this.tipoCalculadora=tipo;  
-        //this.cantidadMaximaParametros=5;
     }
       
     // ALCANCE DE UNA VARIABLE
